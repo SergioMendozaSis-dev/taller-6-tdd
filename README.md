@@ -41,6 +41,6 @@ Las posiciones van de `0` a `8`, de izquierda a derecha y de arriba abajo:
 
 ## Casos comparados
 
-Las dos suites comprueban los mismos ocho comportamientos: inicio, turno, victoria por fila, victoria diagonal, empate, casilla ocupada, posición fuera del tablero y jugada después de ganar. La primera suite usa títulos y comprobaciones cortos; la segunda hace más explícitos los pasos y resultados.
+Las dos suites comprueban los mismos ocho comportamientos: inicio, turno, victoria por fila, victoria diagonal, empate, casilla ocupada, posición fuera del tablero y jugada después de ganar. En cada caso, los comentarios marcan preparación, ejecución y verificación. La prueba del estado inicial indica que no necesita ejecución. La primera suite mantiene títulos breves; la segunda explica más los pasos y resultados.
 
 La suite corta queda como una versión sencilla para estudiar y explicar. Revisa y entiende ambas antes de presentarlas como parte de tu trabajo.
