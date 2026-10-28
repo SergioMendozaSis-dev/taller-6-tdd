@@ -1,0 +1,9 @@
+{
+  "name": "taller-6-tres-en-raya-tdd",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kata de Tres en Raya para practicar TDD con Node.js",
+  "scripts": {
+    "test": "node --test"
+  }
+}
