@@ -35,13 +35,12 @@ Las posiciones van de `0` a `8`, de izquierda a derecha y de arriba abajo:
 ## Cómo está organizado
 
 - `src/tres-en-raya.js`: crea la partida y aplica jugadas.
-- `test/tres-en-raya.test.js`: pruebas escritas de forma directa para los casos principales.
-- `test/tres-en-raya-ia.test.js`: casos adicionales generados a partir del prompt de `prompts/pruebas-ia.md`.
+- `test/tres-en-raya.test.js`: versión manual corta de los casos base.
+- `test/tres-en-raya-ia.test.js`: versión más explicada, generada con el prompt de `prompts/pruebas-ia.md`.
+- `prompts/pruebas-ia.md`: prompt usado para pedir a la IA los casos base.
 
-## Reglas cubiertas
+## Casos comparados
 
-El juego alterna X y O, reconoce filas, columnas y diagonales, y termina con empate cuando ya no quedan casillas. También rechaza posiciones inválidas, casillas ocupadas y jugadas posteriores al final.
+Las dos suites comprueban los mismos ocho comportamientos: inicio, turno, victoria por fila, victoria diagonal, empate, casilla ocupada, posición fuera del tablero y jugada después de ganar. La primera suite usa títulos y comprobaciones cortos; la segunda hace más explícitos los pasos y resultados.
 
-## Nota para la comparación
-
-La consigna pide comparar pruebas propias con pruebas generadas por IA. Aquí se separan los dos grupos para que se puedan revisar. La carpeta marcada `IA` representa los casos generados usando el prompt adjunto; conviene leerlos, entenderlos y adaptarlos antes de presentarlos como trabajo personal.
+La suite corta queda como una versión sencilla para estudiar y explicar. Revisa y entiende ambas antes de presentarlas como parte de tu trabajo.
